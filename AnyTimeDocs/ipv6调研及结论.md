@@ -2,26 +2,17 @@
 
 # 参考信息
 
-站点：
-https://www.ipv6-cn.com/
-运营商 IPv6 地址规划设计，讲述可以按二进制位划分是否为 DSL，无线，直连光纤，类似 RFC3531 标准。
-https://www.ipv6-cn.com/references/clearcable-IPv6-addressing-case-study.html
-IPv6 地址规划与分配——全球可路由地址
-https://www.ipv6-cn.com/tutorials/ipv6-address-allocation-n-assignment.html
+[站点](https://www.ipv6-cn.com/)
+[运营商 IPv6 地址规划设计，讲述可以按二进制位划分是否为 DSL，无线，直连光纤，类似 RFC3531 标准。](https://www.ipv6-cn.com/references/clearcable-IPv6-addressing-case-study.html)
+[IPv6 地址规划与分配——全球可路由地址](https://www.ipv6-cn.com/tutorials/ipv6-address-allocation-n-assignment.html)
 
-ipv6 前缀在 dhcp 的运用
-https://datatracker.ietf.org/doc/html/rfc6177
-IPv6 地址分配给终端站点，建议不要直接以 /48 前缀使用，要更细化。里面并没有讲具体的细化方法。
-https://datatracker.ietf.org/doc/html/rfc3633
-具体位数分配的建议，最左、左右、最中心，是用位数来表示分配的单位。以最右为例：0001，0010，0011 这三个就可以表示为三个楼或家庭
-https://www.rfc-editor.org/rfc/rfc3531
+[ipv6 前缀在 dhcp 的运用](https://datatracker.ietf.org/doc/html/rfc6177)
+[IPv6 地址分配给终端站点，建议不要直接以 /48 前缀使用，要更细化。里面并没有讲具体的细化方法。](https://datatracker.ietf.org/doc/html/rfc3633)
+[具体位数分配的建议，最左、左右、最中心，是用位数来表示分配的单位。以最右为例：0001，0010，0011 这三个就可以表示为三个楼或家庭](https://www.rfc-editor.org/rfc/rfc3531)
 
-IPv6技术精要（第2版）概括
-https://blog.csdn.net/qq_31220203/article/details/123952180
+[IPv6技术精要（第2版）概括](https://blog.csdn.net/qq_31220203/article/details/123952180)
 
-国家标准《IPv6 地址分配和编码规则》
-https://max.book118.com/html/2023/0118/8063016134005030.shtm
-
+[国家标准《IPv6 地址分配和编码规则》](https://max.book118.com/html/2023/0118/8063016134005030.shtm)
 
 IETF RFC 4291　IP Version 6 Addressing Architecture
 IETF RFC 8415　Dynamic Host Configuration Protocol for IPv6(DHCPv6)
