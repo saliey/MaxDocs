@@ -1,0 +1,23 @@
+
+
+
+
+
+
+可能很多人不知道，安卓有一套完善的语音录入体系，叫 voice_recognition_service ，默认绑定的是 GoogleTTSRecognitionService
+
+因为 google tts 国内无法访问，你也可以通过 adb 后，用下面命令切换到讯飞语音的在线识别服务
+
+settings put secure voice_recognition_service com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService
+
+然后就用代码调用 input keyevent KEYCODE_VOICE_ASSIST ，一键触发完整流程：语音录入->上传识别语音到文字->回调进自己的第三方 apk （通过 Intent 获取识别后的文本）
+
+我试过别的语音识别方案，比如 openai 的 whisper ，但是中文识别率实在是很糟糕。
+
+
+
+
+
+
+
+
