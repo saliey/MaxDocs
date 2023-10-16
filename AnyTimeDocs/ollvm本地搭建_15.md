@@ -14,7 +14,7 @@ https://github.com/0x3f97/ollvm-12.x
 
 ## 1 步骤
 
-1. 将 [ollvm](https://github.com/buffcow/ollvm-project/tree/14.x) 拉下来
+1. 将 [ollvm](https://github.com/buffcow/ollvm-project/tree/14.x) 拉下来。 14.x 版本适用 [bdk-build-r25](https://github.com/android/ndk/wiki/Unsupported-Downloads) 版本。
 2. 然后在 windows 端使用 visurl studio 打开项目的 `ollvm-project-14.x\llvm` 路径
 3. 然后构建 CMakeSettings.json 配置文件，原命令为 `cmake -S llvm -B build -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -DCMAKE_BUILD_TYPE=Release -DLLVM_INCLUDE_TESTS=OFF -DLLVM_ENABLE_NEW_PASS_MANAGER=OFF` ，所以 json 配置文件为 
 
